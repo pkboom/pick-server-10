@@ -30,7 +30,7 @@ Open `pick-server.test` and whatever `laravel-pick` sends will appear here.
 
 Check:
 
--   boostrap/app.php
+-   app/Http/Middleware/VerifyCsrfToken.php
 -   routs/web.php
 -   resources/views/pick.blade.php
 -   config/pick.php
@@ -40,12 +40,3 @@ Check:
 ```sh
 composer create-project laravel/laravel project-name 10.0
 ```
-
-## Update for old version
-
-Check:
-
--   app/Http/Middleware/VerifyCsrfToken.php
--   routs/web.php
--   resources/views/pick.blade.php
--   config/pick.php
