@@ -24,7 +24,7 @@
         }
 
         function dump() {
-            fetch('http://pick-server.test/dump')
+            fetch('http://pick-server-10.test/dump')
                 .then((response) => response.text())
                 .then((html) => {
                     if (!html) return

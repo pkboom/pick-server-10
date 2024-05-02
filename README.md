@@ -22,7 +22,7 @@ Route::get('/', function () {
 });
 ```
 
-Open `pick-server.test` and whatever `laravel-pick` sends will appear here.
+Open `pick-server-10.test` and whatever `laravel-pick` sends will appear here.
 
 <img src="image2.png" />
 
