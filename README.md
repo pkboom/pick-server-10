@@ -10,6 +10,15 @@ composer setup
 
 # Usage
 
+```sh
+php artisan vendor:publish --provider="Pkboom\Pick\PickServiceProvider"
+
+# config/pick.pick
+return [
+    'pick-server' => 'http://pick-server-10.test/webhook',
+];
+```
+
 After installing [laravel-pick](https://github.com/pkboom/laravel-pick), use `pick()` in your app.
 
 ```php
